@@ -8,11 +8,11 @@ function converter(){
         taxa = 1;
     } else {
         if (origem === "dolarOrigem" && destino === "realDestino") {
-            taxa = 5.45;
+            taxa = 4.99;
         } else if (origem === "realOrigem" && destino === "dolarDestino") {
             taxa = 0.18;
         } else if (origem === "euroOrigem" && destino === "realDestino"){
-            taxa = 6.28;
+            taxa = 5.43;
         } else if (origem === "realOrigem" && destino === "euroDestino"){
             taxa = 0.14;
         } else if (origem === "dolarOrigem" && destino === "euroDestino"){
